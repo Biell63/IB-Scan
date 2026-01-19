@@ -1,0 +1,20 @@
+{
+  "name": "ib-scan",
+  "version": "1.0.0",
+  "description": "IB Scan - Auditoria LGPD Offline",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^11.5.0"
+  },
+  "dependencies": {
+    "exif-parser": "^0.1.12",
+    "fontkit": "^1.8.1",
+    "mammoth": "^1.11.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.12.3",
+    "xlsx": "^0.18.5"
+  }
+}
