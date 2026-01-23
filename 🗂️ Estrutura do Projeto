@@ -1,0 +1,35 @@
+├── app
+│   ├── auth
+│   │   ├── authCrypto.js        # Criptografia de credenciais
+│   │   ├── authState.js         # Estado de autenticação
+│   │   └── authStore.js         # Persistência local
+│   │
+│   ├── history
+│   │   ├── historyIpc.js        # Comunicação IPC
+│   │   ├── historyService.js   # Leitura / gravação de auditorias
+│   │   └── historyStore.json   # Base local de histórico
+│   │
+│   ├── protection
+│   │   ├── aclApplier.js        # Aplicação de permissões
+│   │   ├── groupDetector.js     # Detecção de grupos
+│   │   ├── permissionResolver.js
+│   │   ├── protectionService.js
+│   │   └── protectionLog.js    # Log de ações
+│   │
+│   ├── scanner
+│   │   └── index.js             # Motor principal de varredura
+│   │
+│   ├── ui
+│   │   ├── index.html           # Interface
+│   │   ├── styles.css           # Estilos
+│   │   └── main.js              # Lógica do front-end
+│   │
+│   └── state.js                 # Estado global da aplicação
+│
+├── assets
+│   └── logo.png
+│
+├── preload.js                   # Ponte IPC segura
+├── main.js                      # Processo principal (Electron)
+├── package.json
+└── package-lock.json
