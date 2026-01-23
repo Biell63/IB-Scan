@@ -72,7 +72,4 @@ Usados como base para ações manuais de proteção
 ├── package.json
 └── package-lock.json
 
-
-Usados como base para ações manuais de proteção
-
 🗂️ Estrutura do Projeto
