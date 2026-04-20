@@ -5,8 +5,8 @@ let session = null;
 
  const USERS = [
     {
-      user: 'ibscan',
-      passHash: hashPassword('ibscan2831')
+      user: 'XXX',
+      passHash: hashPassword('XXX')
     }
   ];  
 
